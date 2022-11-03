@@ -13,4 +13,11 @@ public class Flower {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Flower{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
